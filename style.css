@@ -1,7 +1,12 @@
 a:focus, button:focus{
     transform: scale(1.2);
 }
-
+.adresse-footer{
+    margin: 2rem 0;
+}
+.font-size-17{
+    font-size: 17px;
+}
 body {
     margin: 0;
     padding: 0;
@@ -10,7 +15,9 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+#twitter-icon, #fb-icon, #dribble-icon, #insta-icon{
+    color: white;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -20,6 +27,7 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 #page-loading-blocs-notifaction {
